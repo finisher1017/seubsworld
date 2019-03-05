@@ -4,8 +4,50 @@
 }
 
 
-/* @media (min-width: 1200px) */
-.p-container {
+
+.p-navigator {
     margin: 0 auto 0 auto;
     max-width: 700px;
 }
+
+.navbar {
+    height: 5rem;
+}
+
+@include media-breakpoint-up(xs) { }
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .jumbotron {
+        display: none;
+    }
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+
+/* @media (min-width: 576px) { }
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
+
+*/
+
+
+
+
+
