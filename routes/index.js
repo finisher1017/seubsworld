@@ -17,4 +17,16 @@ router.get('/login', (req, res) => {
     res.render('login');
 });
 
+// about me route
+router.get('/about', (req, res) => {
+    res.render('about');
+});
+
+// resume page
+router.get('/resume', (req, res) => {
+    res.render('resume');
+});
+
+
+
 module.exports = router;

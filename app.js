@@ -12,6 +12,7 @@ const port = (process.env.PORT || 3000);
 
 // route requirements
 const indexRoutes = require('./routes/index.js');
+const jbRoutes = require('./routes/projects/john-brown/index.js');
 
 
 mongoose.connect("mongodb://localhost/seubsworld");
@@ -21,6 +22,8 @@ app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
 app.use(flash());
 app.use(indexRoutes);
+app.use(jbRoutes);
+
 
 
 
