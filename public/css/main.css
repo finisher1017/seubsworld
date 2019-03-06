@@ -16,11 +16,23 @@
     height: 5rem;
 }
 
-@include media-breakpoint-up(xs) { }
+.card {
+    margin-top: 2em;
+}
+
+.audio {
+    text-align: center;
+}
+
+.images {
+    text-align: center;
+}
+
+/* @include media-breakpoint-up(xs) { }
 @include media-breakpoint-up(sm) { ... }
 @include media-breakpoint-up(md) { ... }
 @include media-breakpoint-up(lg) { ... }
-@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xl) { ... } */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
@@ -39,6 +51,14 @@
 
     .card {
         margin-top: 2em;
+    }
+
+    .audio {
+        text-align: center;
+    }
+    
+    .images {
+        text-align: center;
     }
  }
 
