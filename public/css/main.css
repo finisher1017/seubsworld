@@ -3,11 +3,13 @@
     text-align: center;
 }
 
-
+.btn {
+    margin-top: 1rem;
+}
 
 .p-container {
-    margin: 0 auto 0 auto;
-    max-width: 700px;
+    margin: 2.5rem auto 2.5rem auto;
+    max-width: 60%;
 }
 
 .navbar {
@@ -26,9 +28,17 @@
         display: none;
     }
 
+    .btn {
+        margin-top: 1rem;
+    }
+
     .p-container {
-        margin: 0 auto 0 auto;
+        margin: 2.5rem auto 2.5rem auto;
         max-width: 90%;
+    }
+
+    .card {
+        margin-top: 2em;
     }
  }
 
