@@ -27,6 +27,11 @@ router.get('/resume', (req, res) => {
     res.render('resume');
 });
 
+// contact page route
+router.get('/contact', (req, res) => {
+    res.render('contact');
+});
+
 
 
 module.exports = router;
