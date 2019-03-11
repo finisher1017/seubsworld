@@ -46,11 +46,12 @@
 
     .p-container {
         margin: 2.5rem auto 2.5rem auto;
-        max-width: 90%;
+        max-width: 70%;
     }
 
     .card {
-        margin-top: 2em;
+        margin: 2em auto 2em auto;
+        max-width: 90%;
     }
 
     .audio {
@@ -66,6 +67,7 @@
         -moz-column-count: 1;
         column-count: 1;
     }
+
 
     /* .card-text {
         margin: 2.5rem auto 2.5rem auto;
