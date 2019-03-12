@@ -20,6 +20,11 @@
     margin-top: 2em;
 }
 
+.footer-text {
+    color: white;
+    margin: auto;
+}
+
 /* .audio {
     text-align: center;
 }
@@ -45,6 +50,11 @@
     }
 
     .p-container {
+        margin: 2.5rem auto 2.5rem auto;
+        max-width: 80%;
+    }
+
+    .container {
         margin: 2.5rem auto 2.5rem auto;
         max-width: 80%;
     }
