@@ -18,6 +18,7 @@
 
 .card {
     margin-top: 2em;
+    border: none;
 }
 
 .footer-text {
@@ -64,8 +65,9 @@ img {
     }
 
     .card {
-        margin: 2em auto 2em auto;
+        margin: 1em auto 1em auto;
         max-width: 90%;
+        border: none;
     }
 
     .audio {
